@@ -1,13 +1,13 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.pipwave.sdk' // CREATE A GROUP ID FOR YOUR LIBRARY
+group = 'com.pipwave.sdk.android' // CREATE A GROUP ID FOR YOUR LIBRARY
 
 install {
     repositories.mavenInstaller {
         pom {
             project {
                 packaging 'aar'
-                groupId 'com.pipwave.sdk' // CREATE A GROUP ID FOR YOUR LIBRARY
+                groupId 'com.pipwave.sdk.android' // CREATE A GROUP ID FOR YOUR LIBRARY
                 artifactId 'pipwavesdk' // THE NAME OF YOUR MODULE
 
                 name 'pipwavesdk' // YOUR LIBRARY NAME
