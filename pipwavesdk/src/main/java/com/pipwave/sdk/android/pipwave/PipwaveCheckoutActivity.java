@@ -25,7 +25,6 @@ import com.pipwave.sdk.android.common.utils.Preconditions;
 import com.pipwave.sdk.android.common.utils.Signature;
 import com.pipwave.sdk.android.pipwave.model.ApiOverride;
 import com.pipwave.sdk.android.PipwaveConfig;
-import com.pipwave.sdk.android.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
